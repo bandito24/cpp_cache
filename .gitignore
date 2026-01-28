@@ -1,0 +1,78 @@
+# ===============================
+# Build directories (out-of-source builds)
+# ===============================
+build/
+build-*/
+cmake-build-*/
+out/
+
+# ===============================
+# CMake generated files
+# ===============================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+compile_commands.json
+
+# ===============================
+# Ninja
+# ===============================
+.ninja_deps
+.ninja_log
+
+# ===============================
+# Testing
+# ===============================
+Testing/
+test_detail.xml
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===============================
+# OS / platform
+# ===============================
+Thumbs.db
+
+# ===============================
+# Compiled objects & binaries
+# ===============================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+
+# ===============================
+# Coverage / profiling
+# ===============================
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Third-party deps (if fetched locally)
+# ===============================
+_deps/
+
